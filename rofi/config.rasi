@@ -1,0 +1,78 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font: "Cascadia Code Italic 20";
+    display-drun: "Apps:";
+}
+
+@theme "/dev/null"
+
+* {
+  bg: #1E1E2E;
+
+  fg: #96CDFB;
+  fg-alt: #6E6C7E;
+
+  background-color: @bg;
+  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  width: 60%;
+}
+
+element {
+  padding: 8 0;
+  text-color: @fg-alt;
+}
+
+element selected {
+  text-color: @fg;
+}
+
+element-text {
+  padding: 0 20;
+  background-color: inherit;
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+element-icon {
+  size: 40;
+}
+
+entry {
+  background-color: @bg;
+  padding: 12;
+  text-color: @fg;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+  padding: 8 12;
+  background-color: @bg;
+  columns: 2;
+  lines: 16;
+}
+
+mainbox {
+  background-color: @bg;
+  children: [inputbar, listview];
+  border: 1;
+  border-color: @fg;
+}
+
+prompt {
+  background-color: @bg;
+  enabled: true;
+  padding: 12 0 0 12;
+  text-color: @fg;
+}
