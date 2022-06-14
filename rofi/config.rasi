@@ -2,7 +2,7 @@ configuration {
     modi: "drun";
     show-icons: true;
     icon-theme: "Papirus";
-    font: "Cascadia Code Italic 30";
+    font: "Cascadia Code Italic 20";
     display-drun: "Apps:";
 }
 
@@ -43,7 +43,7 @@ element-text {
 }
 
 element-icon {
-  size: 70;
+  size: 40;
 }
 
 entry {
