@@ -18,6 +18,8 @@ Plug 'neomake/neomake'
 " Rust syntax hightlighting
 Plug 'rust-lang/rust.vim'
 
+Plug 'neovim/nvim-lspconfig'
+
 call plug#end()
 
 function! InsertHTMLTemplate()
@@ -84,3 +86,12 @@ set wildmenu
 
 " Color column 80, which is standard line length
 set colorcolumn=80
+
+lua << EOF
+    local lspconfig = require('lspconfig')
+
+    local servers = { 'rust_analyzer' }
+    for _, lsp in ipairs(servers) do
+        lspconfig[lsp].setup {}
+    end
+EOF
