@@ -17,3 +17,5 @@ transmission
 user-dirs*
 vlc
 yay
+
+qtile/__pycache__/*
