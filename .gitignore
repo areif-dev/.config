@@ -17,5 +17,6 @@ transmission
 user-dirs*
 vlc
 yay
+gconf
 
 qtile/__pycache__/*
