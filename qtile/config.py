@@ -29,7 +29,7 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
-mod = "mod1"  # Set mod key to Alt
+mod = "mod4"  # Set mod key to Alt
 terminal = guess_terminal()
 
 keys = [
@@ -108,7 +108,10 @@ layouts = [
     # layout.Matrix(),
     # layout.MonadTall(),
     # layout.MonadWide(),
-    layout.RatioTile(),
+    layout.RatioTile(
+        margin=5,
+        border_focus="#cba6f7",
+    ),
     # layout.Tile(),
     # layout.TreeTab(),
     # layout.VerticalTile(),
