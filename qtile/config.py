@@ -108,7 +108,10 @@ layouts = [
     # layout.Matrix(),
     # layout.MonadTall(),
     # layout.MonadWide(),
-    layout.RatioTile(),
+    layout.RatioTile(
+        margin=3,
+        border_focus="#cba6f7",
+    ),
     # layout.Tile(),
     # layout.TreeTab(),
     # layout.VerticalTile(),
