@@ -23,6 +23,8 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
+Plug 'sbdchd/neoformat'
+
 call plug#end()
 
 set completeopt=menu,menuone,noselect
