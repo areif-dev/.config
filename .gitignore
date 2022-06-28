@@ -18,5 +18,9 @@ user-dirs*
 vlc
 yay
 gconf
+pavucontrol.ini
 
 qtile/__pycache__/*
+GIMP/
+Thunar/
+xfce4/
