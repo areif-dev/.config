@@ -71,7 +71,7 @@ set wildmenu
 " Color column 80, which is standard line length
 set colorcolumn=80
 
-set iskeyword=_
+set iskeyword-=_
 
 lua <<EOF
   -- Setup nvim-cmp.
