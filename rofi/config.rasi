@@ -24,6 +24,9 @@ configuration {
 
 window {
   width: 60%;
+  border: 4;
+  border-radius: 16;
+  padding: 4;
 }
 
 element {
@@ -66,8 +69,9 @@ listview {
 mainbox {
   background-color: @bg;
   children: [inputbar, listview];
-  border: 1;
+  border: 4;
   border-color: @fg;
+  border-radius: 16;
 }
 
 prompt {
