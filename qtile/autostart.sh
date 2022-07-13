@@ -1,2 +1,4 @@
 #!/bin/sh
-polybar &
+polybar workspace & 
+polybar date &
+polybar info &
