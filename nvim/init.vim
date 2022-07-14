@@ -32,6 +32,7 @@ set completeopt=menu,menuone,noselect
 " Autoclosing brackets, quotes, parentheses, braces
 inoremap " ""<left>
 inoremap ' ''<left>
+inoremap ` ``<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
