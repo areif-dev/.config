@@ -120,6 +120,7 @@ layouts = [
     # layout.MonadWide(),
     layout.RatioTile(
         margin=3,
+        border_width=2,
         border_focus="#cba6f7",
     ),
     # layout.Tile(),
