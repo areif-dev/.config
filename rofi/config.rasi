@@ -60,6 +60,7 @@ entry {
 inputbar {
   children: [prompt, entry];
   background-color: #11111b;
+  padding: 10 0 10 0;
 }
 
 listview {
