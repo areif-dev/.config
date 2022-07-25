@@ -9,12 +9,14 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #1E1E2E;
+  base: #1E1E2E;
 
-  fg: #96CDFB;
-  fg-alt: #6E6C7E;
+  sapphire: #74c7ec;
+  surface2: #585b70;
 
-  background-color: @bg;
+  text: #cdd6f4;
+
+  background-color: @base;
   
   border: 0;
   margin: 0;
@@ -30,11 +32,12 @@ window {
 
 element {
   padding: 8 0;
-  text-color: @fg-alt;
+  border-radius: 8;
+  text-color: @text;
 }
 
-element selected {
-  text-color: @fg;
+element selected, element-icon selected {
+  background-color: @surface2;
 }
 
 element-text {
@@ -49,33 +52,35 @@ element-icon {
 }
 
 entry {
-  background-color: @bg;
+  background-color: inherit;
   padding: 12;
-  text-color: @fg;
+  text-color: @sapphire;
 }
 
 inputbar {
   children: [prompt, entry];
+  background-color: #11111b;
+  padding: 10 0 10 0;
 }
 
 listview {
   padding: 8 12;
-  background-color: @bg;
+  background-color: @base;
   columns: 2;
   lines: 16;
 }
 
 mainbox {
-  background-color: @bg;
+  background-color: @base;
   children: [inputbar, listview];
   border: 4;
-  border-color: @fg;
+  border-color: @sapphire;
   border-radius: 16;
 }
 
 prompt {
-  background-color: @bg;
+  background-color: inherit;
   enabled: true;
   padding: 12 0 0 12;
-  text-color: @fg;
+  text-color: @sapphire;
 }
