@@ -19,3 +19,6 @@
 [submodule "nixos-config"]
 	path = nixos-config
 	url = git@github.com:areif-dev/nixos-config
+[submodule "nixos"]
+	path = nixos
+	url = git@github.com:areif-dev/nixos-config
