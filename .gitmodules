@@ -22,3 +22,6 @@
 [submodule "nixos"]
 	path = nixos
 	url = git@github.com:areif-dev/nixos-config
+[submodule "starship"]
+	path = starship
+	url = git@github.com:areif-dev/starship-config
