@@ -25,3 +25,6 @@
 [submodule "starship"]
 	path = starship
 	url = git@github.com:areif-dev/starship-config
+[submodule "bashrc"]
+	path = bashrc
+	url = git@github.com:areif-dev/bashrc
