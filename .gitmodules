@@ -1,0 +1,21 @@
+[submodule "atuin"]
+	path = atuin
+	url = git@github.com:areif-dev/atuin
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:areif-dev/alacritty
+[submodule "dunst"]
+	path = dunst
+	url = git@github.com:areif-dev/dunst
+[submodule "rofi"]
+	path = rofi
+	url = git@github.com:areif-dev/rofi
+[submodule "sway"]
+	path = sway
+	url = git@github.com:areif-dev/sway
+[submodule "waybar"]
+	path = waybar
+	url = git@github.com:areif-dev/waybar
+[submodule "nixos-config"]
+	path = nixos-config
+	url = git@github.com:areif-dev/nixos-config
