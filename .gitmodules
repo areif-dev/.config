@@ -28,3 +28,6 @@
 [submodule "bashrc"]
 	path = bashrc
 	url = git@github.com:areif-dev/bashrc
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:areif-dev/nvim-config
