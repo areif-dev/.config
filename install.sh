@@ -1,5 +1,7 @@
 #!/usr/bin/env bash 
 
+./scripts/gtk.sh
+
 cp alacritty/alacritty.toml $HOME/.config
 cp bashrc/.bashrc $HOME
 cp starship/starship.toml $HOME/.config
