@@ -31,3 +31,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = git@github.com:areif-dev/nvim-config
+[submodule "river"]
+	path = river
+	url = https://github.com/areif-dev/river
